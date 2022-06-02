@@ -1,4 +1,3 @@
-import "./index.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Dashboard, Register, Error, Landing } from "./pages";
 

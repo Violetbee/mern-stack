@@ -1,4 +1,8 @@
+import { useSelector } from "react-redux";
+
 const Alert = () => {
-  return <div className="alert alert-danger">Alert goes here</div>;
+  const { alertText, alertType } = useSelector((state) => state.alert);
+
+  return <div className={`alert alert-${alertType}`}>{alertText}</div>;
 };
 export default Alert;

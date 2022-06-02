@@ -13,7 +13,7 @@ const Landing = () => {
         {/* info */}
         <div className="info">
           <h1>
-            Job <span>tracking</span> app
+            KOD <span>Yaz</span> app
           </h1>
           <p>
             I'm baby prism retro cronut, salvia umami franzen XOXO tote bag
@@ -22,7 +22,7 @@ const Landing = () => {
             plaid.
           </p>
           <Link to="/register" className="btn btn-hero">
-            Login/Register
+            Giriş Yap/Kayıt Ol
           </Link>
         </div>
         <img src={main} alt="job hunt" className="img main-img" />
